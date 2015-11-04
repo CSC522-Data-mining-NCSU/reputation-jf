@@ -14,7 +14,7 @@ query = 'select rating,movie_id from ratings where movie_id > 15074'
 cursor.execute(query)
 result = open('movie_ground.txt','w')
 
-movie_pointer = 15075
+movie_pointer = 1
 movie_count = 0
 sum = 0
 
