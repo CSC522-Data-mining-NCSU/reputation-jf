@@ -23,4 +23,4 @@ class MovieFinder(object):
         return None
 
 finder = MovieFinder()
-print finder.get_movie_ground(70)
+print finder.get_movie_ground(5000)
